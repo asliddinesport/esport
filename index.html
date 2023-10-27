@@ -93,14 +93,13 @@
 				</li>
 			</ul>
 		</div>
-<head>	
-	<link rel="stylesheet" href="static/logstyle.css">
-</head>
-		<form class="box" action="loginbox.html" method="post">
-		<h1>Login</h1>
-		<input type="text" name="" placeholder="Имя пользователя">
-		<input type="password" name="" placeholder="Пароль">
-		<input type="submit" name="" value="Войти">
+		<form id="login-form" class="box">
+
+		        <label for="username">Логин:</label>
+		        <input type="text" id="username" name="username" required>
+		        <label for="password">Пароль:</label>
+		        <input type="password" id="password" name="password" required>
+		        <button type="submit">Войти</button>
 		</form>
 		
 		</section>
