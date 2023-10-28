@@ -1,3 +1,17 @@
+
+let btn = document.querySelector("#btn");
+let sidebar = document.querySelector(".sidebar");
+let searchBtn = document.querySelector(".bx-search");
+let listItem = document.querySelectorAll(".bx-search");
+
+btn.onclick = function(){
+	sidebar.classList.toggle("active")
+	
+}
+searchBtn.onclick = function(){
+	sidebar.classList.toggle("active")
+	
+}
 / Код для обработки формы входа в аккаунт
 var loginForm = document.getElementById("login-form");
 
@@ -13,17 +27,4 @@ if (loginForm) {
 
     alert("Вы вошли в аккаунт!"); // Вместо этого можно добавить редирект на страницу аккаунта
   });
-}
-let btn = document.querySelector("#btn");
-let sidebar = document.querySelector(".sidebar");
-let searchBtn = document.querySelector(".bx-search");
-let listItem = document.querySelectorAll(".bx-search");
-
-btn.onclick = function(){
-	sidebar.classList.toggle("active")
-	
-}
-searchBtn.onclick = function(){
-	sidebar.classList.toggle("active")
-	
 }
